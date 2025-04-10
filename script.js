@@ -29,6 +29,12 @@ const student = {
   totalCourses: function () {
     return this.courses.length;
   },
+
+  getAverageScore: function() {
+    const total_of_all_scores = this.scores.reduce((sum, curr) => sum + curr, 0);
+    const avg = total_of_all_scores / this.scores.length;
+    return  avg;
+  }
 };
 
 const do_part_1 = false;
@@ -109,7 +115,7 @@ if (do_part_4) {
 }
 
 // Part 5: Object Methods
-const do_part_5 = true;
+const do_part_5 = false;
 if (do_part_5) {
   console.log("Part 5: Object Methods Output");
   console.log();
@@ -119,4 +125,17 @@ if (do_part_5) {
   console.log(student.courses);
   console.log();
   console.log(`Total number of courses ${student.totalCourses()}`);
+}
+
+// Bonus Task: Calculate average score
+const do_part_bonus = true;
+if (do_part_bonus) {
+  console.log("Bonus Task: Calculate average score Output");
+  console.log();
+  
+  console.log(`Scores  ${student.scores}`);
+  console.log(`Scores Count  ${student.scores.length}`);
+  console.log();
+  
+  console.log(`Average Score  ${student.getAverageScore()}`);
 }

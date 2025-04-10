@@ -39,6 +39,6 @@ Lab Instructions
     [X] Add another method to calculate and return the total number of courses.
 
 
-[ ] Bonus Task
-    [ ] Use the reduce method to calculate the average score from the array of scores.
+[X] Bonus Task
+    [X] Use the reduce method to calculate the average score from the array of scores.
         Hint: Think about how you can sum all the numbers in an array and divide by the total count.
