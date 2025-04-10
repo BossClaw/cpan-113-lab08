@@ -1,0 +1,44 @@
+Lab Instructions
+
+[X] Part 1: Understanding and Creating Objects
+    [X] 1. Create an object to represent a student with properties such as:
+        [X] name (a string).
+        [X] age (a number).
+        [X] enrolled (a boolean).
+        [X] courses (an array of strings representing course names).
+        [X] A method to display basic student information.
+
+    [X] 1. (2) Use console.log to output:
+        [X] The name and age properties.
+        [X] The result of calling the method.
+
+
+[ ] Part 2: Working with JSON
+    [ ] 1. Convert the student object into a JSON string.
+    [ ] 2. Log the JSON string to the console.
+    [ ] 3. Convert the JSON string back into a JavaScript object.
+    [ ] 4. Log the newly created object and compare it to the original.
+
+
+[ ] Part 3: Using Destructuring Assignment
+    [ ] 1. Use destructuring to extract the name and courses properties from the student object.
+        Hint: Look up how to destructure an object in ES6.
+    [ ] 1.(2) Create an array of scores (e.g., [85, 92, 78, 90]).
+        Destructure the first two scores from the array and log them to the console.
+
+
+[ ] Part 4: The Spread Operator
+    [ ] Clone the student object using the spread operator.
+    [ ] Add a new property (e.g., graduationYear) to the cloned object and log it.
+    [ ] Merge two arrays:
+    [ ] Use the spread operator to combine student.courses with a new array of courses.
+
+
+[ ] Part 5: Object Methods
+    [ ] Add a method to the student object to dynamically add a new course to the courses array.
+    [ ] Add another method to calculate and return the total number of courses.
+
+
+[ ] Bonus Task
+    [ ] Use the reduce method to calculate the average score from the array of scores.
+        Hint: Think about how you can sum all the numbers in an array and divide by the total count.
