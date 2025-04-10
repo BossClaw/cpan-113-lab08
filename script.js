@@ -60,7 +60,7 @@ if (do_part_2) {
 }
 
 // Part 3: Using Destructuring Assignment
-const do_part_3 = true;
+const do_part_3 = false;
 if (do_part_3) {
   console.log("Part 3: Using Destructuring Assignment Output");
   console.log();
@@ -75,3 +75,29 @@ if (do_part_3) {
   console.log(`Second Score ${secondScore}`);
   console.log();
 }
+
+
+// Part 4: The Spread Operator
+const do_part_4 = true;
+if (do_part_4) {
+  console.log("Part 4: The Spread Operator Output");
+  console.log();
+
+  const clonedStudent = {
+    ...student,
+    graduationYear: 2099,
+    detentionHours: 169,
+  };
+  console.log(`Cloned Student with new Grad Year attribute`);
+  console.log(JSON.stringify(clonedStudent));
+  console.log();
+
+  const newCourses = [
+    "Saluting our new AI overlords (an etiquette guide)",
+    "Penguins & Tariffs",
+  ];
+  student.courses = [...student.courses, ...newCourses];
+  console.log(`Merged Student Courses`);
+  console.log(student.courses);
+}
+

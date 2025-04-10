@@ -27,11 +27,11 @@ Lab Instructions
         Destructure the first two scores from the array and log them to the console.
 
 
-[ ] Part 4: The Spread Operator
-    [ ] Clone the student object using the spread operator.
-    [ ] Add a new property (e.g., graduationYear) to the cloned object and log it.
-    [ ] Merge two arrays:
-    [ ] Use the spread operator to combine student.courses with a new array of courses.
+[X] Part 4: The Spread Operator
+    [X] Clone the student object using the spread operator.
+    [X] Add a new property (e.g., graduationYear) to the cloned object and log it.
+    [X] Merge two arrays:
+        Use the spread operator to combine student.courses with a new array of courses.
 
 
 [ ] Part 5: Object Methods
