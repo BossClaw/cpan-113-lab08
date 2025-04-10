@@ -1,0 +1,30 @@
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+a,
+a:hover,
+a:visited {
+  color: orange;
+  font-weight: bold;
+}
+
+main {
+  margin: 0;
+  padding: 1em;
+}
+
+pre {
+  /* NOT FULL WHITE FOR CONTRAST, SLIGHT ORANGE-ISH */
+  color: #d3bbac;
+  /* NOT FULL BLACK FOR CONTRAST, SLIGHT OCEAN-ISH */
+  background-color: #29475b;
+
+  padding: 1em;
+
+  /* KEEP PRE, BUT WRAP FOR EASIER LEGIBILTIY */
+  white-space: pre-wrap;
+}
