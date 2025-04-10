@@ -13,11 +13,11 @@ Lab Instructions
         [X] The result of calling the method.
 
 
-[ ] Part 2: Working with JSON
-    [ ] 1. Convert the student object into a JSON string.
-    [ ] 2. Log the JSON string to the console.
-    [ ] 3. Convert the JSON string back into a JavaScript object.
-    [ ] 4. Log the newly created object and compare it to the original.
+[X] Part 2: Working with JSON
+    [X] 1. Convert the student object into a JSON string.
+    [X] 2. Log the JSON string to the console.
+    [X] 3. Convert the JSON string back into a JavaScript object.
+    [X] 4. Log the newly created object and compare it to the original.
 
 
 [ ] Part 3: Using Destructuring Assignment
