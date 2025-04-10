@@ -1,5 +1,5 @@
 
-// CODE TO CAPTURE THE console.log INTO STR FOR FRONTEND
+// OVERRIDE LOG TO APPEND LOGS TO DOM <pre> AS WELL AS LOG
 const console_log_pre = document.getElementById("console_log_pre");
 const originalLog = console.log;
 
@@ -10,7 +10,7 @@ console.log = function (...args) {
 };
 
 
-// FETCH THE SCRIPT INTO THE DOM AT RUNTIME
+// FETCH THE SCRIPT INTO THE <pre> AT RUNTIME
 const rep = await fetch('./script.js');
 const script_lines = await rep.text();
 document.getElementById("script_js").innerText = script_lines;

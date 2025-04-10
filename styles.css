@@ -1,15 +1,16 @@
 body {
-  background-color: black;
+  /* NOT FULL COLOURS IN ORDER TO REDUCE CONTRAST AND LOOK 'OLD 70s TEXT-BOOKY' */
+  background-color: #201727;
   margin: 0;
   padding: 0;
+  font-family: sans-serif;
 }
 
 body,
 a,
 a:hover,
 a:visited {
-  color: orange;
-  font-weight: bold;
+  color: #aa6600;
 }
 
 main {
