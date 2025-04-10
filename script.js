@@ -21,6 +21,14 @@ const student = {
       this.age
     }\n  - Enrolled ${this.enrolled ? "Y" : "N"}`;
   },
+
+  addCourse: function (newCourse) {
+    this.courses.push(newCourse);
+  },
+
+  totalCourses: function () {
+    return this.courses.length;
+  },
 };
 
 const do_part_1 = false;
@@ -76,9 +84,8 @@ if (do_part_3) {
   console.log();
 }
 
-
 // Part 4: The Spread Operator
-const do_part_4 = true;
+const do_part_4 = false;
 if (do_part_4) {
   console.log("Part 4: The Spread Operator Output");
   console.log();
@@ -101,3 +108,15 @@ if (do_part_4) {
   console.log(student.courses);
 }
 
+// Part 5: Object Methods
+const do_part_5 = true;
+if (do_part_5) {
+  console.log("Part 5: Object Methods Output");
+  console.log();
+  
+  student.addCourse("Biodiversity & Microbreweries");
+  console.log(`Courses after adding new one`);
+  console.log(student.courses);
+  console.log();
+  console.log(`Total number of courses ${student.totalCourses()}`);
+}

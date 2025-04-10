@@ -34,9 +34,9 @@ Lab Instructions
         Use the spread operator to combine student.courses with a new array of courses.
 
 
-[ ] Part 5: Object Methods
-    [ ] Add a method to the student object to dynamically add a new course to the courses array.
-    [ ] Add another method to calculate and return the total number of courses.
+[X] Part 5: Object Methods
+    [X] Add a method to the student object to dynamically add a new course to the courses array.
+    [X] Add another method to calculate and return the total number of courses.
 
 
 [ ] Bonus Task
