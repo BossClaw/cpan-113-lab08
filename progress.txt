@@ -20,10 +20,10 @@ Lab Instructions
     [X] 4. Log the newly created object and compare it to the original.
 
 
-[ ] Part 3: Using Destructuring Assignment
-    [ ] 1. Use destructuring to extract the name and courses properties from the student object.
+[X] Part 3: Using Destructuring Assignment
+    [X] 1. Use destructuring to extract the name and courses properties from the student object.
         Hint: Look up how to destructure an object in ES6.
-    [ ] 1.(2) Create an array of scores (e.g., [85, 92, 78, 90]).
+    [X] 1.(2) Create an array of scores (e.g., [85, 92, 78, 90]).
         Destructure the first two scores from the array and log them to the console.
 
 
